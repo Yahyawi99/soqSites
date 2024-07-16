@@ -1,0 +1,65 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header>div {
+  width: 95%;
+  max-width: var(--mw);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.imgContainer {
+  width: 150px;
+  height: fit-content;
+}
+
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.nav ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+
+.nav li {
+  color: var(--clr-2);
+  border-bottom: 4px solid transparent;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.nav button {
+  width: 85px;
+  color: var(--clr-2);
+  background-color: var(--clr-3);
+  font-weight: 600;
+  border: 2px solid transparent;
+  border-radius: var(--br);
+  cursor: pointer;
+  outline: none;
+  padding: 8px 0;
+  transition: .3s;
+}
+
+
+
+/* Hover effects */
+.nav li:hover {
+  color: var(--clr-3);
+  border-bottom: 2px solid var(--clr-3);
+}
+
+.nav button:hover {
+  color: var(--clr-3);
+  background-color: transparent;
+  border: 2px solid var(--clr-3);
+}
