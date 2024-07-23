@@ -2,6 +2,8 @@
   color: var(--clr-2);
   display: flex;
   justify-content: center;
+  position: relative;
+  overflow: hidden;
 }
 
 .services>div {
@@ -10,20 +12,20 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 75px 0;
+  padding: 75px 0 150px 0;
 }
 
 .services>div h2 {
   margin-bottom: 50px;
 }
 
-.services>div>div {
+.services>div>div:nth-child(2) {
   width: 100%;
   background-color: var(--clr-2);
   display: flex;
   justify-content: space-evenly;
   border-radius: var(--br);
-  padding: 75px 0;
+  padding: 50px 0;
 }
 
 .service {
@@ -33,15 +35,34 @@
 }
 
 .service button {
+  background-color: transparent;
+  color: var(--clr-1);
+  border: 2px solid var(--clr-1);
   cursor: pointer;
+  transition: .3s;
+  padding: 5px 20px;
 }
 
 .services>div>div>div:nth-child(1)>div,
 .services>div>div>div:nth-child(3)>div {
-  width: 145px;
+  width: 150px;
 }
 
 .services>div>div>div>div {
   width: 100px;
   margin-bottom: 25px;
+}
+
+/* **Hover** */
+.service button:hover {
+  background-color: var(--clr-1);
+  color: var(--clr-2);
+}
+
+/* ================= */
+.services .bgPattern {
+  width: 200px;
+  right: 0;
+  bottom: -10px;
+  position: absolute;
 }

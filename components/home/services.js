@@ -49,6 +49,16 @@ function index() {
             <button>SEO SERVICES</button>
           </div>
         </div>
+
+        <div className={styles.bgPattern}>
+          <Image
+            src="/assets/bg-pattern-home-5.svg"
+            width={100}
+            height={100}
+            alt="bg-pattern"
+            layout="responsive"
+          />
+        </div>
       </div>
     </section>
   );
