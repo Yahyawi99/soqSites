@@ -25,7 +25,7 @@ function Header() {
             <li>Company</li>
           </ul>
 
-          <button>Contact</button>
+          <button>Contact Us</button>
         </nav>
       </div>
     </header>
