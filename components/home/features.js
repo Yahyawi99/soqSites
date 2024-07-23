@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 // styles
-import styles from "../../styles/features/features.module.css";
+import styles from "../../styles/home/features.module.css";
 
 function index() {
   return (
