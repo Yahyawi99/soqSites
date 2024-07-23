@@ -1,0 +1,47 @@
+.services {
+  color: var(--clr-2);
+  display: flex;
+  justify-content: center;
+}
+
+.services>div {
+  width: 95%;
+  max-width: var(--mw);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 75px 0;
+}
+
+.services>div h2 {
+  margin-bottom: 50px;
+}
+
+.services>div>div {
+  width: 100%;
+  background-color: var(--clr-2);
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: var(--br);
+  padding: 75px 0;
+}
+
+.service {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.service button {
+  cursor: pointer;
+}
+
+.services>div>div>div:nth-child(1)>div,
+.services>div>div>div:nth-child(3)>div {
+  width: 145px;
+}
+
+.services>div>div>div>div {
+  width: 100px;
+  margin-bottom: 25px;
+}
