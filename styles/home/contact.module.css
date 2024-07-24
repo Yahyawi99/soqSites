@@ -24,11 +24,11 @@
   color: var(--clr-4);
   background-color: transparent;
   border: 2px solid var(--clr-4);
-  border-radius: var(--br);
+  border-radius: 25px;
   font-size: 1.1rem;
   cursor: pointer;
   transition: .3s;
-  padding: 10px 20px;
+  padding: 12px 30px;
 }
 
 /* **Hover** */
