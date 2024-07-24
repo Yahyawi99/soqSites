@@ -12,7 +12,7 @@ function index() {
             <span>We make</span> first-class websites.
           </h3>
           <p>
-            Most web agencies stop after web design, WE don't! We know much
+            Most web agencies stop after web design, WE don&apos;t! We know much
             better.
           </p>
         </div>
